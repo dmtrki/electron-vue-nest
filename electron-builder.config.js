@@ -12,18 +12,15 @@ const config = {
   directories: {
     output: resolve('dist'),
   },
-  electronDownload: {
-    mirror: 'https://npm.taobao.org/mirrors/electron/',
-  },
   files: [
-    resolve('packages/backend/package.json'),
+    resolve('packages/main/package.json'),
     {
-      from: resolve('packages/api/dist'),
-      to: 'api',
+      from: resolve('packages/main/dist'),
+      to: 'main',
     },
     {
-      from: resolve('packages/app/dist'),
-      to: 'app',
+      from: resolve('packages/renderer/dist'),
+      to: 'renderer',
     },
   ]
 }

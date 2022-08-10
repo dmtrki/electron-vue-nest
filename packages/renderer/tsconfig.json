@@ -17,7 +17,7 @@
     "skipLibCheck": true
   },
   "include": [
-    "../api/preload.d.ts",
+    "../main/preload.d.ts",
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
