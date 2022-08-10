@@ -16,8 +16,8 @@
 ## Структура
 ```sh
   ├─┬ packages
-  │ ├── api                   # backend/main process
-  │ └── app                   # frontend/renderer process
+  │ ├── main                   # backend/main process
+  │ └── renderer                   # frontend/renderer process
   ├── electron-builder.config.js
   ├── package.json
   └── dsr.config.ts           # @doubleshot/runner config
